@@ -6,4 +6,12 @@ The properties you need to add to each element are:
 * Make the element with both the `avatar` and `distorted` classes 200 pixels wide, then make its height twice as big as its width (here you should hardcode in a pixel value).
 
 */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
 
+.avatar.distorted {
+    width: 200px;
+    width: 400px;
+}
